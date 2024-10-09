@@ -5,7 +5,7 @@ bool isBitSet(int number, int position) {
     return (number & (1 << position)) != 0;
 }
 
-int main() {
+int main3() {
     int number, position;
     std::cout << "Enter number: ";
     std::cin >> number;
